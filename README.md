@@ -24,6 +24,14 @@ The code to be uploaded on Arduino with transmitter and Reciever respectively ha
 **NOTES:**
 * While working with RF 5V without antenna, it gave a range of about 15m in the line of sight.
 * Range can be increased by adding antenna to the Transmitter and Reciever.
+**Specification of RF_433MHz Transmitter**
+* Frequency Range: 433.92 MHz
+* Input Voltage: 5V
+
+**Specifications RF 433MHz Transmitter**
+* Frequency Range: 433.92MHz
+* Input Voltage: 3-12V
+##sss
 
 
 
