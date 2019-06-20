@@ -59,7 +59,7 @@ The code to be uploaded on Arduino with transmitter and Reciever respectively ha
   *  NPN bipolar transistor. Virtually any NPN transistor that can handle 300 mA or more will work here(I used BD 139).
   * Resistors: 2 x 1k (from 0.5k to 1.2k will work fine), and 1 x 10k (that one is best kept precise - although if you absolutely must use a different value, adjust reference_resistor_kOhm variable in the sketch accordingly).
   * Capacitors: 2 x 1uF or more. Tantalum or ceramic ones are required (Electrolytic capacitors were not working).
-  
+  ###
  **Notes:**
 * Make sure that the capacitors are ceramic(I took the capacitors of the value of 1uF).
 * The connections of MQ-7 sensors were removed as shown in this [image]() to get the satisfactory results.
