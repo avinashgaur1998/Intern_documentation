@@ -46,6 +46,12 @@ The code to be uploaded on Arduino with transmitter and Reciever respectively ha
 * [Client](https://github.com/avianshgaur/Intern_documentation/blob/master/png_nRF24/Client.png)
 * [Server](https://github.com/avianshgaur/Intern_documentation/blob/master/png_nRF24/Server.png)
 
+**Notes**
+* Important: Input voltage is of 1.9V~3.6V, do not exceed this voltage, otherwise it will fry your module. 
+* When testing without antenna,the tranceiver module was transmitting upto range of 50-60 metres.R
+* Range can be increased with adding an antenna both the modules.
+
+
 
 
 
