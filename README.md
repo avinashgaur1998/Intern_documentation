@@ -34,7 +34,7 @@ The code to be uploaded on Arduino with transmitter and Reciever respectively ha
 * Frequency Range: 433.92MHz
 * Input Voltage: 3-12V
 
-## To Interface nRF24L01 – 2.4GHz RF Transceiver Module With Arduino ##
+## To Interface nRF24L01 – 2.4GHz RF Transceiver Module With Arduin
 **Specifications nRF24L01 – 2.4GHz RF Transceiver**
 * Input Voltage: 3.3V
 * Range with Antenna: 250Kb rate (Open area) >1000 meter.
@@ -57,10 +57,11 @@ The code to be uploaded on Arduino with transmitter and Reciever respectively ha
  **Notes:**
 * Make sure that the capacitors are ceramic(I took the capacitors of the value of 1uF).
 * The connections of MQ-7 sensors were removed as shown in this [image]() to get the satisfactory results.
-* The voltages were varying from 4.3 V to 2.1 V due to the drop in the transisto. But Voltage has to vary from 1.4V to 5V according to [Datasheet]() of the MQ-7.
-* Do not connect MQ-7 directly with Arduino module it may damage the Arduino module. This is because the ardui can supply current upto 40mA and MQ-7 requires current upto 150 mA.
+* The voltages were varying from 4.3 V to 2.1 V due to the drop of 0.7V in the transistor. But Voltage has to vary from 1.4V to 5V according to [Datasheet]() of the MQ-7. This will result in insignificant error which can be ignored(The lower voltage can be brought down to ~ 1.7V from 2.1V by changing 3.6 V in [code]() to nearly 4.7).
+* MQ-7 sensor has to be calibrated by changing the "sensor_reading_clean_air" value in the code. Each sensor has to be calibrated individually. The value of "sensor_reading_clean_air" will change with different MQ-7 sensor.
+* Do not connect MQ-7 directly with Arduino module it may damage the Arduino module. This is because the arduino can supply current upto 40mA and MQ-7 requires current upto 150 mA.
  
-MQ-7 sensor has to be calibrated by changing the "sensor_reading_clean_air" value in the code. Each sensor has to be calibrated individually. The value of "sensor_reading_clean_air" will change with different MQ-7 sensor.
+
 The link:
 https://www.instructables.com/id/Arduino-CO-Monitor-Using-MQ-7-Sensor/
 The co_monitor code has been attached already.
