@@ -3,7 +3,7 @@ This Readme file describes interfacing RF 433MHz, NRF_24, MQ-7 sensor with Ardui
 
 
 ## Firstly, To interface RF 433 MHz with Arduino, the connections were made as mentioned below-
-### RF 433Hz-Arduino wiring
+### RF 433MHz-Arduino wiring
 #### For Transmitter
 | Transmitter | Arduino |
 | :---------: | :------:|
@@ -18,12 +18,14 @@ This Readme file describes interfacing RF 433MHz, NRF_24, MQ-7 sensor with Ardui
 |DATA|11|
 
 
-The code to be uploaded on Arduino with transmitter and Reciever respectively has been attached in this [RF_433Hz](https://github.com/avianshgaur/Intern_documentation/tree/master/RF_433Hz) folder.
+The code to be uploaded on Arduino with transmitter and Reciever respectively has been attached in this [RF_433MHz](https://github.com/avianshgaur/Intern_documentation/tree/master/RF_433Hz) folder.
 
 
 **NOTES:**
 * While working with RF 5V without antenna, it gave a range of about 15m in the line of sight.
 * Range can be increased by adding antenna to the Transmitter and Reciever.
+* [RadioHead](http://www.airspayce.com/mikem/arduino/RadioHead/RadioHead-1.46.zip) library has to be installed before uploading the code.
+
 **Specification of RF_433MHz Transmitter**
 * Frequency Range: 433.92 MHz
 * Input Voltage: 5V
@@ -31,7 +33,15 @@ The code to be uploaded on Arduino with transmitter and Reciever respectively ha
 **Specifications RF 433MHz Transmitter**
 * Frequency Range: 433.92MHz
 * Input Voltage: 3-12V
-##sss
+
+## To Interface nRF24L01 – 2.4GHz RF Transceiver Module With Arduino ##
+**Specifications nRF24L01 – 2.4GHz RF Transceiver**
+* Input Voltage: 3.3V
+* Range with Antenna: 250Kb rate (Open area) >1000 meter.
+
+[RadioHead](http://www.airspayce.com/mikem/arduino/RadioHead/RadioHead-1.46.zip)library has to be download before uploading the code.
+
+
 
 
 
