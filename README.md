@@ -50,25 +50,16 @@ The code to be uploaded on Arduino with transmitter and Reciever respectively ha
 
 **Notes**
 * Important: Input voltage is of 1.9V~3.6V, do not exceed this voltage, otherwise it will fry your module. 
-* When testing without antenna,the tranceiver module was transmitting upto range of 50-60 metres.R
-* Range can be increased with adding an antenna both the modules.
+* When testing without antenna,the tranceiver module was transmitting upto range of 50-60 metres in the line of sight.
+* Range can be increased with adding an antenna to both the modules.
 
-
-
-
-
-
-
-
-
-The next link is to interface the NRF24 Transceiver with the Arduino.
-https://randomnerdtutorials.com/nrf24l01-2-4ghz-rf-transceiver-module-with-arduino/
-While working with NRF_24 without antenna, it gave a range of about 60 meters in the line of sight.
-
-
-
-
-The next link provides the entire procedure to interface the MQ-7 SENSOR to Arduino. Make sure that the capacitors are ceramic(I took the capacitors of the value of 1uF). he connections of MQ-7 sensors as mentioned in the link were removed to get the satisfactory results.
+## To interface the MQ-7 SENSOR to Arduino##
+ **Notes:**
+* Make sure that the capacitors are ceramic(I took the capacitors of the value of 1uF).
+* The connections of MQ-7 sensors were removed as shown in this [image]() to get the satisfactory results.
+* The voltages were varying from 4.3 V to 2.1 V due to the drop in the transisto. But Voltage has to vary from 1.4V to 5V according to [Datasheet]() of the MQ-7.
+* Do not connect MQ-7 directly with Arduino module it may damage the Arduino module. This is because the ardui can supply current upto 40mA and MQ-7 requires current upto 150 mA.
+ 
 MQ-7 sensor has to be calibrated by changing the "sensor_reading_clean_air" value in the code. Each sensor has to be calibrated individually. The value of "sensor_reading_clean_air" will change with different MQ-7 sensor.
 The link:
 https://www.instructables.com/id/Arduino-CO-Monitor-Using-MQ-7-Sensor/
