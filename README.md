@@ -53,11 +53,17 @@ The code to be uploaded on Arduino with transmitter and Reciever respectively ha
 * When testing without antenna,the tranceiver module was transmitting upto range of 50-60 metres in the line of sight.
 * Range can be increased with adding an antenna to both the modules.
 
-## To interface the MQ-7 SENSOR to Arduino##
+## To interface the MQ-7 SENSOR to Arduino
+ ### Requirements
+  * MQ-7 CO sensor
+  *  NPN bipolar transistor. Virtually any NPN transistor that can handle 300 mA or more will work here(I used BD 139).
+  * Resistors: 2 x 1k (from 0.5k to 1.2k will work fine), and 1 x 10k (that one is best kept precise - although if you absolutely must use a different value, adjust reference_resistor_kOhm variable in the sketch accordingly).
+  * Capacitors: 2 x 1uF or more. Tantalum or ceramic ones are required (Electrolytic capacitors were not working).
+  
  **Notes:**
 * Make sure that the capacitors are ceramic(I took the capacitors of the value of 1uF).
 * The connections of MQ-7 sensors were removed as shown in this [image]() to get the satisfactory results.
-* The voltages were varying from 4.3 V to 2.1 V due to the drop of 0.7V in the transistor. But Voltage has to vary from 1.4V to 5V according to [Datasheet]() of the MQ-7. This will result in insignificant error which can be ignored(The lower voltage can be brought down to ~ 1.7V from 2.1V by changing 3.6 V in [code]() to nearly 4.7).
+* The voltages were varying from 4.3 V to 2.1 V due to the drop of 0.7V in the transistor. But Voltage has to vary from 1.4V to 5V according to [Datasheet](https://www.sparkfun.com/datasheets/Sensors/Biometric/MQ-7.pdf) of the MQ-7. This will result in insignificant error which can be ignored(The lower voltage can be brought down to ~ 1.7V from 2.1V by changing 3.6 V in [code]() to nearly 4.7).
 * MQ-7 sensor has to be calibrated by changing the "sensor_reading_clean_air" value in the code. Each sensor has to be calibrated individually. The value of "sensor_reading_clean_air" will change with different MQ-7 sensor.
 * Do not connect MQ-7 directly with Arduino module it may damage the Arduino module. This is because the arduino can supply current upto 40mA and MQ-7 requires current upto 150 mA.
  
