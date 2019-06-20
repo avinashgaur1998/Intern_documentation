@@ -21,8 +21,11 @@ This Readme file describes interfacing RF 433MHz, NRF_24, MQ-7 sensor with Ardui
 The code to be uploaded on Arduino with transmitter and Reciever respectively has been attached in this [RF_433Hz](https://github.com/avianshgaur/Intern_documentation/tree/master/RF_433Hz) folder.
 
 
+**NOTES:**
+* While working with RF 5V without antenna, it gave a range of about 15m in the line of sight.
+* Range can be increased by adding antenna to the Transmitter and Reciever.
 
-While working with RF 5V without antenna, it gave a range of about 15m in the line of sight.
+
 
 
 
