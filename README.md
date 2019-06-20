@@ -18,7 +18,7 @@ This Readme file describes interfacing RF 433MHz, NRF_24, MQ-7 sensor with Ardui
 |DATA|11|
 
 
-The code to be uploaded on Arduino with transmitter and Reciever respectively has been attached in this [RF_433Hz]() folder.
+The code to be uploaded on Arduino with transmitter and Reciever respectively has been attached in this [RF_433Hz](https://github.com/avianshgaur/Intern_documentation/tree/master/RF_433Hz) folder.
 
 
 
