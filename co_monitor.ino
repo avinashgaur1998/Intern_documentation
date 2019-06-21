@@ -72,10 +72,10 @@ void pwm_adjust()
     Serial.print(w);
     Serial.print(", V=");
     Serial.println(avg_v);
-    if(avg_v < 4.95&& previous_v > 4.95) //we found optimal width
+    if(avg_v < 3.6 && previous_v > 3.6) //we found optimal width
     {
-      float dnew = 4.98 - avg_v; //now we need to find if current one
-      float dprev = previous_v - 4.95;//or previous one is better
+      float dnew = 3.6 - avg_v; //now we need to find if current one
+      float dprev = previous_v - 3.6;//or previous one is better
       if(dnew < dprev) //if new one is closer to 1.4 then return it
       {
         opt_voltage = avg_v;
