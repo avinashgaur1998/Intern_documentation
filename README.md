@@ -76,8 +76,8 @@ The code to be uploaded on Arduino with transmitter and Reciever respectively ha
 * The connections of MQ-7 sensors were removed as shown in the image below to get the satisfactory results.
   
   ![Modified MQ7](https://github.com/avianshgaur/Intern_documentation/blob/master/other_png/modified_MQ-7.jpg)
-* The voltages were varying from 4.3 V to 2.1 V due to the drop of 0.7V in the transistor. But Voltage has to vary from 1.4V to 5V according to [Datasheet](https://www.sparkfun.com/datasheets/Sensors/Biometric/MQ-7.pdf) of the MQ-7. This will result in insignificant error which can be ignored(The lower voltage can be brought down to ~ 1.7V from 2.1V by changing 3.6 V in [code]() to nearly 4.7).
-* MQ-7 sensor has to be calibrated by changing the "sensor_reading_clean_air" value in the code. Each sensor has to be calibrated individually. The value of "sensor_reading_clean_air" will change with different MQ-7 sensor.
+* The voltages were varying from 4.3 V to 2.1 V due to the drop of 0.7V in the transistor. But Voltage drop across MQ-7 has to vary from 1.4V for 90 seconds to 5V for 60 seconds respectively according to [Datasheet](https://www.sparkfun.com/datasheets/Sensors/Biometric/MQ-7.pdf) of the MQ-7. This will result in insignificant error which can be ignored(The lower voltage can be brought down to ~ 1.7V from 2.1V by changing 3.6 V in [code]() to nearly 4.7).
+* MQ-7 sensor has to be calibrated by changing the "sensor_reading_clean_air" value in the code. Each sensor has to be calibrated individually. The value of **"sensor_reading_clean_air"** will change with different MQ-7 sensor.
 * Do not connect MQ-7 directly with Arduino module it may damage the Arduino module. This is because the arduino can supply current upto 40mA and MQ-7 requires current upto 150 mA.
  
 
