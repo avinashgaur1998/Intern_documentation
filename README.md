@@ -22,8 +22,8 @@ The code to be uploaded on Arduino with transmitter and Reciever respectively ha
 
 
 **NOTES:**
-* While working with RF 5V without antenna, it gave a range of about 15m in the line of sight.
-* Range can be increased by adding antenna to the Transmitter and Reciever.
+* While working with RF 5V without an antenna, it gave a range of about 15m in the line of sight.
+* Range can be increased by adding an antenna to the Transmitter and Reciever.
 * [RadioHead](http://www.airspayce.com/mikem/arduino/RadioHead/RadioHead-1.46.zip) library has to be installed before uploading the code.
 
 **Specification of RF_433MHz Transmitter**
@@ -53,8 +53,8 @@ The code to be uploaded on Arduino with transmitter and Reciever respectively ha
  ![Server](https://github.com/avianshgaur/Intern_documentation/blob/master/png_nRF24/Server.png)
 
 **Notes**
-* Important: Input voltage is of 1.9V~3.6V, do not exceed this voltage, otherwise it will fry your module. 
-* When testing without antenna,the tranceiver module was transmitting upto range of 50-60 metres in the line of sight.
+* Important: Input voltage is of 1.9V~3.6V, do not exceed this voltage. Otherwise, it will fry your module. 
+* When testing without antenna, the transceiver module was transmitting up to the range of 50-60 meters in the line of sight.
 * Range can be increased with adding an antenna to both the modules.
 
 ## To interface the MQ-7 SENSOR to Arduino
@@ -76,9 +76,10 @@ The code to be uploaded on Arduino with transmitter and Reciever respectively ha
 * The connections of MQ-7 sensors were removed as shown in the image below to get the satisfactory results.
   
   ![Modified MQ7](https://github.com/avianshgaur/Intern_documentation/blob/master/other_png/modified_MQ-7.jpg)
-* The voltages were varying from 4.3 V to 2.1 V due to the drop of 0.7V in the transistor. But Voltage drop across MQ-7 has to vary from 1.4V for 90 seconds to 5V for 60 seconds respectively according to [Datasheet](https://www.sparkfun.com/datasheets/Sensors/Biometric/MQ-7.pdf) of the MQ-7. This will result in insignificant error which can be ignored(The lower voltage can be brought down to ~ 1.7V from 2.1V by changing 3.6 V in [code]() to nearly 4.7).
+* The voltages were varying from 4.3 V to 2.1 V due to the drop of 0.7V in the transistor. But Voltage drop across MQ-7 has to vary from 1.4V for 90 seconds to 5V for 60 seconds respectively according to [Datasheet](https://www.sparkfun.com/datasheets/Sensors/Biometric/MQ-7.pdf) of the MQ-7. This will result in an insignificant error which can be ignored(The lower voltage can be brought down to ~ 1.7V from 2.1V by changing 3.6 V in [code]() to nearly 4.7).
 * MQ-7 sensor has to be calibrated by changing the "sensor_reading_clean_air" value in the code. Each sensor has to be calibrated individually. The value of **"sensor_reading_clean_air"** will change with different MQ-7 sensor.
-* Do not connect MQ-7 directly with Arduino module it may damage the Arduino module. This is because the arduino can supply current upto 40mA and MQ-7 requires current upto 150 mA.
+* MQ-7 can also be calibrated by 
+* Do not connect MQ-7 directly with Arduino module it may damage this  module. This is because the Arduino can supply current up to 40mA and MQ-7 requires current up to 150 mA.
  
 
 The link:
