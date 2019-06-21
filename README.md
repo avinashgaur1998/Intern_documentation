@@ -71,7 +71,7 @@ The code to be uploaded on Arduino with transmitter and Reciever respectively ha
   ![](https://github.com/avianshgaur/Intern_documentation/blob/master/other_png/MQ-7_circuit.jpg)
 
 
- **Notes:
+ **Notes:**
 * Make sure that the capacitors are ceramic(I took the capacitors of the value of 1uF).
 * The connections of MQ-7 sensors were removed as shown in this [image]() to get the satisfactory results.
 * The voltages were varying from 4.3 V to 2.1 V due to the drop of 0.7V in the transistor. But Voltage has to vary from 1.4V to 5V according to [Datasheet](https://www.sparkfun.com/datasheets/Sensors/Biometric/MQ-7.pdf) of the MQ-7. This will result in insignificant error which can be ignored(The lower voltage can be brought down to ~ 1.7V from 2.1V by changing 3.6 V in [code]() to nearly 4.7).
