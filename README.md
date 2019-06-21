@@ -80,8 +80,6 @@ The code to be uploaded on Arduino with transmitter and Reciever respectively ha
 * MQ-7 sensor has to be calibrated by changing the "sensor_reading_clean_air" value in the code. Each sensor has to be calibrated individually. The value of **"sensor_reading_clean_air"** will change with different MQ-7 sensor.
 * MQ-7 can also be calibrated by changing **"sensor_reading_100ppm_CO"** value in code from "-1" to analog value of sensor at 100ppm. 
 * Do not connect MQ-7 directly with Arduino module it may damage this  module. This is because the Arduino can supply current up to 40mA and MQ-7 requires current up to 150 mA.
- 
+### [Code that has to be uploaded to MCU](https://github.com/avianshgaur/Intern_documentation/blob/master/co_monitor.ino)
 
-The link:
-https://www.instructables.com/id/Arduino-CO-Monitor-Using-MQ-7-Sensor/
-The co_monitor code has been attached already.
+
