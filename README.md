@@ -45,8 +45,12 @@ The code to be uploaded on Arduino with transmitter and Reciever respectively ha
 [nRF24L01](https://github.com/avianshgaur/Intern_documentation/tree/master/nRF24L01) has the code that has to be uploaded in Arduino.
 
 **Following is the circuit diagram for the client and server respectively**
-* [Client](https://github.com/avianshgaur/Intern_documentation/blob/master/png_nRF24/Client.png)
-* [Server](https://github.com/avianshgaur/Intern_documentation/blob/master/png_nRF24/Server.png)
+
+### Client
+![Client](https://github.com/avianshgaur/Intern_documentation/blob/master/png_nRF24/Client.png)
+
+### Server
+ ![Server](https://github.com/avianshgaur/Intern_documentation/blob/master/png_nRF24/Server.png)
 
 **Notes**
 * Important: Input voltage is of 1.9V~3.6V, do not exceed this voltage, otherwise it will fry your module. 
