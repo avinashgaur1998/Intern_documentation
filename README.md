@@ -52,7 +52,8 @@ The code to be uploaded on Arduino with transmitter and Reciever respectively ha
 ### Server
  ![Server](https://github.com/avianshgaur/Intern_documentation/blob/master/png_nRF24/Server.png)
 
-### ![nRF24_Output]()
+### ![nRF24_Output](https://github.com/avianshgaur/Intern_documentation/blob/master/png_nRF24/nRF24_output.png)
+
 **Notes**
 * Important: Input voltage is of 1.9V~3.6V, do not exceed this voltage. Otherwise, it will fry your module. 
 * When testing without antenna, the transceiver module was transmitting up to the range of 50-60 meters in the line of sight.
