@@ -99,7 +99,7 @@ PMS7003 is a kind of digital and universal particle concentration sensor, which 
 
 ![](https://github.com/avianshgaur/Intern_documentation/blob/master/other_png/circuit_diagram.png)
 
-### [Code to be uploaded](https://github.com/avianshgaur/Intern_documentation/blob/master/PMS7003/PMS7003.in)
+### [Code to be uploaded](https://github.com/avianshgaur/Intern_documentation/blob/master/PMS7003/PMS7003.ino)
  #### Circuit Diagram according to above code
 | PMS7003 | Arduino |
 | :---------: | :------:|
