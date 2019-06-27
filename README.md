@@ -93,10 +93,10 @@ PMS7003 is a kind of digital and universal particle concentration sensor, which 
 * PMS7003
 * Resistor 10kohm
 ### Pin Definition:
-![]()
+![](https://github.com/avianshgaur/Intern_documentation/blob/master/other_png/Pin_def.png)
 ### Circuit Diagram:
 
-![]()
+![](https://github.com/avianshgaur/Intern_documentation/blob/master/other_png/circuit_diagram.png)
 
 ### [Code to be uploaded]()
 
@@ -106,11 +106,8 @@ PMS7003 is a kind of digital and universal particle concentration sensor, which 
 * PIN7 and PIN8 should not be connected.
 * Stable data should be got at least 30 seconds after the sensor wakeup from the sleep mode because of the fan’s performance.
 
-### Circuit image
-
-![]()
 
 ### Expected Output
 
-![]()
+![](https://github.com/avianshgaur/Intern_documentation/blob/master/other_png/Output.png)
 
