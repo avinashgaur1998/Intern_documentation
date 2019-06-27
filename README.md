@@ -109,7 +109,7 @@ PMS7003 is a kind of digital and universal particle concentration sensor, which 
 | Pin 9| 2(RX)   |
 
 
-**Note: **
+**Note:**
 SoftareSerial should be downloaded before uploading this code.
 
 **Notes**
