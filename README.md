@@ -86,7 +86,7 @@ The code to be uploaded on Arduino with transmitter and Reciever respectively ha
 * Do not connect MQ-7 directly with Arduino module it may damage this  module. This is because the Arduino can supply current up to 40mA and MQ-7 requires current up to 150 mA.
 ### [Code that has to be uploaded to MCU](https://github.com/avianshgaur/Intern_documentation/blob/master/co_monitor.ino)
 
-## To Interface PM7003 with Arduino
+## To Interface PMS7003 with Arduino
 PMS7003 is a kind of digital and universal particle concentration sensor, which can be used to obtain the number of suspended particles in the air, i.e. the concentration of particles, and output them in the form of digital interface.
 **Requirements:**
 * Host MCU (Arduino Mini Pro 3.3V in this case)
