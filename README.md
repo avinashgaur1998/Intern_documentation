@@ -95,11 +95,18 @@ PMS7003 is a kind of digital and universal particle concentration sensor, which 
 
 ![](https://github.com/avianshgaur/Intern_documentation/blob/master/other_png/Pin_def.png)
 
-### Circuit Diagram :
+### General Circuit Structure  :
 
 ![](https://github.com/avianshgaur/Intern_documentation/blob/master/other_png/circuit_diagram.png)
 
-### [Code to be uploaded]()
+### [Code to be uploaded](https://github.com/avianshgaur/Intern_documentation/blob/master/PMS7003/PMS7003.in)
+ #### Circuit Diagram according to above code
+| PMS7003 | Arduino |
+| :---------: | :------:|
+| VCC | 5V |
+| GND | GND |
+|Pin  | 3   |  
+| Pin 9| 2   |
 
 **Notes**
 * DC 5V power supply is needed because the FAN should be driven by 5V. But the high level of data pin is 3.3V. Level conversion unit    should be used if the power of host MCU is 5V.
