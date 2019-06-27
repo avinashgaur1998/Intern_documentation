@@ -105,9 +105,10 @@ PMS7003 is a kind of digital and universal particle concentration sensor, which 
 | :---------: | :------:|
 | VCC | 5V |
 | GND | GND |
-|Pin  | 3   |  
-| Pin 9| 2   |
-
+|Pin 7 | 3(TX)   |  
+| Pin 9| 2(RX)   |
+**Note**
+SoftareSerial should be downloaded before uploading this code.
 **Notes**
 * DC 5V power supply is needed because the FAN should be driven by 5V. But the high level of data pin is 3.3V. Level conversion unit    should be used if the power of host MCU is 5V.
 * The SET and RESET pins are pulled up inside so they should not be connected if without usage( They were not connected in this case).
