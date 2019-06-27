@@ -109,7 +109,7 @@ PMS7003 is a kind of digital and universal particle concentration sensor, which 
 | Pin 9| 2(RX)   |
 
 
-**Note**
+**Note: **
 SoftareSerial should be downloaded before uploading this code.
 
 **Notes**
@@ -117,7 +117,6 @@ SoftareSerial should be downloaded before uploading this code.
 * The SET and RESET pins are pulled up inside so they should not be connected if without usage( They were not connected in this case).
 * PIN7 and PIN8 should not be connected.
 * Stable data should be got at least 30 seconds after the sensor wakeup from the sleep mode because of the fan’s performance.
-
 
 ### Expected Output
 
