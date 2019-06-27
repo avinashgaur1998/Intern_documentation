@@ -92,9 +92,10 @@ PMS7003 is a kind of digital and universal particle concentration sensor, which 
 * Host MCU (Arduino Mini Pro 3.3V in this case)
 * PMS7003
 * Resistor 10kohm
-### Pin Definition:
+
 ![](https://github.com/avianshgaur/Intern_documentation/blob/master/other_png/Pin_def.png)
-### Circuit Diagram:
+
+### Circuit Diagram :
 
 ![](https://github.com/avianshgaur/Intern_documentation/blob/master/other_png/circuit_diagram.png)
 
