@@ -122,3 +122,16 @@ SoftareSerial library should be downloaded before uploading the code.
 
 ![](https://github.com/avianshgaur/Intern_documentation/blob/master/other_png/Output.png)
 
+
+## Calibrating Ultimaker 2+
+After the “Welcome” screen, the Ultimaker 2 will guide you through some steps for calibrating the build plate. For printing it is very important that the first layer is nicely squished into the glass plate and sticks well to it. If the distance between the nozzle and build plate is too big, your print won’t stick properly to the glass plate. On the other hand, if the nozzle is too close to the build plate it can prevent the filament from extruding from the nozzle.
+ * Upload ".gcode" file in the memory card and Enter print on the Ultimaker printer
+ * Clean the Buildplate surface if it is not cleaned.
+  * Apply glue like Fevistick on the Buildplate. This is needed to stick 1st layer of print to surface.
+  
+  
+ **Notes**
+ * Bed Leveling: To calibrate Build plate navigate "Maintenance" > "Build plate". Then Ultimaker Printer will guide you step by step to calibrate the printer.
+ * If even after levelling if the 1st layer is not sticking to surface, then check the nozzle temperature, Buildplate temperature in the setting. The temperature is diffrent for diffrent material. Increase or decrease the temperature according the material.
+  For knowing about the material, find its name on the reel placed on Printer.
+ 
