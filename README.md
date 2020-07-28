@@ -1,6 +1,9 @@
 # Intern_documentation
 This Readme file describes interfacing RF 433MHz, NRF_24, MQ-7 sensor with Arduino module. This file also has observations that were made after interfacing the above with Arduino. 
+## Product Developed at the end of Internship: Wearable Air Quality Monitoring System
+In an attempt to make the air quality sensors suitable for personal use, we designed a compact sensor system that can be attached to the backpack. This sensor system comprises of CCS811, PMS7003, and HC-05 Bluetooth module controlled by Arduino mini pro. CCS811 measures the CO2 levels, VOC and Temperature, and PMS7003 sensor, measure the PM1, PM2.5, PM10 concenteration levelsnear the user. User can connect with the sensor via Bluetooth and check the air quality in their surroundings, as shown in the figures below. This Wearable can also be used for dust detection at a construction site, to alert the worker if the dust particles are above a certain threshold
 
+### ![Expected_output](https://github.com/avianshgaur/Intern_documentation/blob/master/other_png/RF_24.jpg)
 
 ## Firstly, To interface RF 433 MHz with Arduino, the connections were made as mentioned below-
 ### RF 433MHz-Arduino wiring
