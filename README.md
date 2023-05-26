@@ -8,7 +8,7 @@ In an attempt to make the air quality sensors suitable for personal use, we desi
 ## Installation of the CO2 sensor module
 ### ![Expected_output](https://github.com/avianshgaur/Intern_documentation/blob/master/other_png/CO2.png)
 
-The CO2 sensor module comprises of the CCS811 sensor interfaced to a nodeMCU microcontroller. The CCS811 is an ultra-low power digital gas sensor which detects a wide range of Volatile Organic Compounds (VOCs) for indoor air quality monitoring. It also calculates TVOC value or equivalent CO2 (eCO2) levels, where the main cause of VOCs is from humans. This makes it an ideal indoor sensor. NodeMCU is a microcontroller which can connect and communicate over WiFi. NodeMCU collects the data from CCS811via I2C and uploads the data to the server database via WiFi. 
+The CO2 sensor module comprises of the CCS811 sensor interfaced to a nodeMCU microcontroller. The CCS811 is an ultra-low power digital gas sensor which detects a wide range of Volatile Organic Compounds (VOCs) for indoor air quality monitoring. It also calculates TVOC value or equivalent CO2 (eCO2) levels, where the main cause of VOCs is from humans. This makes it an ideal indoor sensor. NodeMCU is a microcontroller which can connect and communicate over WiFi. NodeMCU collects the data from CCS811via I2C and uploads the data to the server database via WiFi...
  
 The CO2 levels can easily be correlated with the number of people in the room.
  ### ![Expected_output](https://github.com/avianshgaur/Intern_documentation/blob/master/other_png/CO2_observation.png)
